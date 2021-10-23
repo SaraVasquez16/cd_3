@@ -5,7 +5,7 @@
 // 5.Controlador o Web
 
 
-package Reto3_Ciclo3;
+package Domingo_Reto3.Reto3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
