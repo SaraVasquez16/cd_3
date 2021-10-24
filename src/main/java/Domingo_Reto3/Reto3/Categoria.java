@@ -53,10 +53,10 @@ public class Categoria implements Serializable {
         return computers;
     }
 
-    public void setComputers(List<Computer> computer) {
-        this.computers = computer;
+    public void setComputers(List<Computer> computers) {
+        this.computers = computers;
     }
-    
+
     
     
     
