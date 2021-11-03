@@ -19,7 +19,7 @@ import javax.persistence.Table;
 @Table(name = "client")
 public class Cliente implements Serializable {
     
-     @Id
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idClient;
     private String email;
