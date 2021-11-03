@@ -57,6 +57,12 @@ public class ServiciosReservaciones {
                 if(reservation.getStatus()!=null){
                     e.get().setStatus(reservation.getStatus());
                 }
+                if(reservation.getComputer().getId()!=null){
+                    e.get().setComputer(reservation.getComputer());
+                }
+                if(reservation.getClient().getIdClient()!=null){
+                    e.get().setClient(reservation.getClient());
+                }
                 metodosCrud.save(e.get());
                 return e.get();
             }else{
