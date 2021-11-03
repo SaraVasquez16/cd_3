@@ -46,6 +46,12 @@ public class ServiciosMensaje {
                 if(message.getMessageText()!=null){
                     e.get().setMessageText(message.getMessageText());
                 }
+                if(message.getComputer().getId()!=null){
+                    e.get().setComputer(message.getComputer());
+                }
+                if(message.getClient().getIdClient()!=null){
+                    e.get().setClient(message.getClient());
+                }
                 metodosCrud.save(e.get());
                 return e.get();
             }else{
